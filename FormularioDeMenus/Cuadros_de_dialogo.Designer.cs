@@ -40,7 +40,7 @@ namespace FormularioDeMenus
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Gold;
-            this.button1.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Ink Free", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Blue;
             this.button1.Location = new System.Drawing.Point(70, 85);
             this.button1.Name = "button1";
@@ -53,7 +53,7 @@ namespace FormularioDeMenus
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Gold;
-            this.button2.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Ink Free", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Blue;
             this.button2.Location = new System.Drawing.Point(320, 85);
             this.button2.Name = "button2";
@@ -66,7 +66,7 @@ namespace FormularioDeMenus
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Gold;
-            this.button3.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Ink Free", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Blue;
             this.button3.Location = new System.Drawing.Point(575, 85);
             this.button3.Name = "button3";
@@ -79,7 +79,7 @@ namespace FormularioDeMenus
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Gold;
-            this.button4.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Ink Free", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Blue;
             this.button4.Location = new System.Drawing.Point(70, 262);
             this.button4.Name = "button4";
@@ -92,7 +92,7 @@ namespace FormularioDeMenus
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Gold;
-            this.button5.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Ink Free", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Blue;
             this.button5.Location = new System.Drawing.Point(320, 262);
             this.button5.Name = "button5";
@@ -105,7 +105,7 @@ namespace FormularioDeMenus
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.Gold;
-            this.button6.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Ink Free", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.Blue;
             this.button6.Location = new System.Drawing.Point(575, 262);
             this.button6.Name = "button6";
@@ -119,7 +119,7 @@ namespace FormularioDeMenus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Blue;
+            this.BackColor = System.Drawing.Color.MediumPurple;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -129,6 +129,7 @@ namespace FormularioDeMenus
             this.Controls.Add(this.button1);
             this.Name = "Cuadros_de_dialogo";
             this.Text = "Cuadros_de_dialogo";
+            this.Load += new System.EventHandler(this.Cuadros_de_dialogo_Load);
             this.ResumeLayout(false);
 
         }
