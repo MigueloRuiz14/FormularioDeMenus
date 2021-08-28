@@ -182,5 +182,10 @@ namespace FormularioDeMenus
 
             ACERCADE.ShowDialog();
         }
+
+        private void mENU1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

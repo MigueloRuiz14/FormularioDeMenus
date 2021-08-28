@@ -44,7 +44,7 @@ namespace FormularioDeMenus
 
         private void button6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Probando Mensaje informativo", "Titulo Ventana", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show("Probando Mensaje informativo", "Ejemplo de mensaje infromativo", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void Cuadros_de_dialogo_Load(object sender, EventArgs e)
