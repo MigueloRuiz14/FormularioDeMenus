@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45CFB791-555C-4BB9-84CA-2AD4E00FD333}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FormularioDeMenus</RootNamespace>
+    <AssemblyName>FormularioDeMenus</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>FormularioDeMenus.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ayuda_sobre_celulares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayuda_sobre_celulares.Designer.cs">
+      <DependentUpon>Ayuda_sobre_celulares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuadros_de_dialogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuadros_de_dialogo.Designer.cs">
+      <DependentUpon>Cuadros_de_dialogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion1m1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion1m1.Designer.cs">
+      <DependentUpon>Opcion1m1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion1m2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion1m2.Designer.cs">
+      <DependentUpon>Opcion1m2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion1m3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion1m3.Designer.cs">
+      <DependentUpon>Opcion1m3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion1m4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion1m4.Designer.cs">
+      <DependentUpon>Opcion1m4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion1m5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion1m5.Designer.cs">
+      <DependentUpon>Opcion1m5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion2m1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion2m1.Designer.cs">
+      <DependentUpon>Opcion2m1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion2m2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion2m2.Designer.cs">
+      <DependentUpon>Opcion2m2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion2m3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion2m3.Designer.cs">
+      <DependentUpon>Opcion2m3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion2m4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion2m4.Designer.cs">
+      <DependentUpon>Opcion2m4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion2m5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion2m5.Designer.cs">
+      <DependentUpon>Opcion2m5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion3m1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion3m1.Designer.cs">
+      <DependentUpon>Opcion3m1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion3m2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion3m2.Designer.cs">
+      <DependentUpon>Opcion3m2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion3m3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion3m3.Designer.cs">
+      <DependentUpon>Opcion3m3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion3m4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion3m4.Designer.cs">
+      <DependentUpon>Opcion3m4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion3m5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion3m5.Designer.cs">
+      <DependentUpon>Opcion3m5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion4m1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion4m1.Designer.cs">
+      <DependentUpon>Opcion4m1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion4m2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion4m2.Designer.cs">
+      <DependentUpon>Opcion4m2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion4m3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion4m3.Designer.cs">
+      <DependentUpon>Opcion4m3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion4m4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion4m4.Designer.cs">
+      <DependentUpon>Opcion4m4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Opcion4m5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Opcion4m5.Designer.cs">
+      <DependentUpon>Opcion4m5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telefonos_celulares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telefonos_celulares.Designer.cs">
+      <DependentUpon>Telefonos_celulares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ayuda_sobre_celulares.resx">
+      <DependentUpon>Ayuda_sobre_celulares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuadros_de_dialogo.resx">
+      <DependentUpon>Cuadros_de_dialogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion1m1.resx">
+      <DependentUpon>Opcion1m1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion1m2.resx">
+      <DependentUpon>Opcion1m2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion1m3.resx">
+      <DependentUpon>Opcion1m3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion1m4.resx">
+      <DependentUpon>Opcion1m4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion1m5.resx">
+      <DependentUpon>Opcion1m5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion2m1.resx">
+      <DependentUpon>Opcion2m1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion2m2.resx">
+      <DependentUpon>Opcion2m2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion2m3.resx">
+      <DependentUpon>Opcion2m3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion2m4.resx">
+      <DependentUpon>Opcion2m4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion2m5.resx">
+      <DependentUpon>Opcion2m5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion3m1.resx">
+      <DependentUpon>Opcion3m1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion3m2.resx">
+      <DependentUpon>Opcion3m2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion3m3.resx">
+      <DependentUpon>Opcion3m3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion3m4.resx">
+      <DependentUpon>Opcion3m4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion3m5.resx">
+      <DependentUpon>Opcion3m5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion4m1.resx">
+      <DependentUpon>Opcion4m1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion4m2.resx">
+      <DependentUpon>Opcion4m2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion4m3.resx">
+      <DependentUpon>Opcion4m3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion4m4.resx">
+      <DependentUpon>Opcion4m4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opcion4m5.resx">
+      <DependentUpon>Opcion4m5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telefonos_celulares.resx">
+      <DependentUpon>Telefonos_celulares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
